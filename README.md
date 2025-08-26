@@ -1,5 +1,13 @@
 # MediaMind
-This project is an AI-powered dynamic execution agent that takes natural language instructions from the user, generates the required Python code using an LLM, safely cleans the code, and executes it dynamically.
+This project is an AI-powered dynamic execution agent that takes natural language instructions from the user, generates the required Python code using an LLM, safely cleans the code, and executes it dynamically.Additionally, The agent can classify the type of task before execution, identifying whether the instruction is:
+
+A RAG (Retrieval-Augmented Generation) action
+
+A general query
+
+A mathematical/computational task
+
+This enables intelligent routing and safe execution, making the system flexible and reliable for a wide variety of tasks.
 
 Key Features
 •	Natural Language to Code → Users can simply describe tasks (e.g., “open an Excel file and show me the first 5 rows”) without worrying about function names.
